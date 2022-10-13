@@ -3,7 +3,7 @@ variable "apprunner_build_command" {
 }
 
 variable "apprunner_connection_name" {
-  default = "just-testing"
+  default = "gh-test-connection"
 }
 
 variable "apprunner_connection_provider_type" {

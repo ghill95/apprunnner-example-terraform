@@ -25,9 +25,4 @@ resource "aws_apprunner_service" "example_apprunner_service" {
       }
     }
   }
-
-  observability_configuration {
-    observability_configuration_arn = var.apprunner_observability_configuration_arn
-    observability_enabled           = false
-}
 }
